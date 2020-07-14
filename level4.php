@@ -28,7 +28,7 @@ $bdd=connect();
 
 try
 {
-	$sql="SELECT niveau, pseudo, temps FROM scores,joueurs WHERE scores.IDJoueur = joueurs.id AND niveau = 4 ";
+	$sql="SELECT niveau, pseudo, temps FROM scores,joueurs WHERE scores.IDJoueur = joueurs.id AND niveau = 4 ORDER BY temps";
 	$resultat= $bdd->query($sql);?>
 	<div class='temps'>
 	<table>
