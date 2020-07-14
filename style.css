@@ -1,0 +1,369 @@
+
+/**					**
+ **		style.css	**
+ **					**/
+
+.container
+{
+	width:1080px;
+	margin:10px auto;
+}
+p
+{
+    font-family: "Candara", Times, serif;
+} 
+
+h2
+{
+	font-size: 1.8em;
+	color:#157999;
+	position:relative;
+	margin-left: 50px;
+}
+
+h3
+{
+	font-size: 1.0em;
+	font-weight: bold;
+	font-style: italic;
+	color:#999;
+	position:relative;
+	text-align: center;
+}
+
+table
+{
+	width:97%;
+	margin:20px;
+	border:1px solid #DDD;
+}
+
+thead
+{
+	background-color: #444;
+	color:#FFF;
+	font-weight: normal;
+	height:40px;
+	line-height: 40px;
+}
+
+tbody tr
+{
+	border-bottom: 1px solid #999;
+	background-color: #EEE;
+	height:30px;
+}
+
+tbody tr td
+{
+	text-align:center ;
+}
+
+tbody tr td a
+{
+	text-decoration: none;
+	color:inherit;
+}
+
+.total
+{
+	width:400px;
+	margin:20px;
+	margin-left: 500px;
+	border:1px solid #DDD;
+	background-color: #EEE;
+	padding:20px;
+}
+
+.total p
+{
+	text-align: right;
+	border-bottom: 1px dotted #DDD;
+}
+
+.total p span
+{
+	width:320px;
+	display: inline-block;
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+button
+{
+	border: 1px solid #777;
+	height: 35px;
+	border-radius: 10px;
+	background-color: #608DAC;
+	float: right;
+	margin-left: 5px;
+	padding: 10px;
+}
+
+button a
+{
+	text-decoration: none;
+	color:#444;
+}
+
+button:hover
+{
+	background-color: #6A9BBD;
+	border-color:#777;
+}
+
+/**					**
+ **		Header		**
+ **					**/
+
+header
+{
+	background: #608DAC;
+	padding:5px 0;
+	border:1px solid #BBB;
+	font-family: "Candara";
+}
+
+header h1
+{
+	color:#153953;
+	text-align: center;
+	font-size: 2.2em;
+}
+
+header h3
+{
+	color:#153953;
+	text-align: center;
+	
+}
+
+.logo
+{
+	height: auto;
+	width: 175px;
+	float: right;
+}
+
+/**					**
+ **		div head	**
+ **					**/
+
+.head
+{
+	border: 1px solid #777;
+	height: 35px;
+	border-radius: 0px;
+	background-color: #999;
+}
+
+.head button
+{
+	border: 1px solid #777;
+	height: 35px;
+	border-radius: 0px;
+	background-color: #AAA;
+	margin-right: 170px;
+	font-family: "Candara", Times, serif;
+}
+
+.head button:hover
+{
+	background-color: #BBB;
+	border-color:#777;
+}
+
+/**					**
+ **		Produits	**
+ **					**/
+
+.produits
+{
+	padding:0;
+}
+
+.produits li
+{
+	float:left;
+	display: block;
+	width:150px;
+	height:250px;
+	border:1px solid #999;
+	margin:10px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #AAA;
+	text-align: center;
+	position: relative;
+	font-family: "Candara", Times, serif;
+}
+
+.produits li span
+{
+	display: block;
+	width:100%;
+	height:30px;
+}
+
+.produits .admin
+{
+	position:absolute;
+	right:-31px;
+	top:0;
+	width:30px;
+	height:64px;
+	border-radius:0 5px 5px 0;
+}
+
+.produits .admin span
+{
+	width:30px;
+	height:30px;
+	border-radius: 00 5px 5px 0;
+	border:1px solid #444;
+	border-left:0;
+	margin-bottom: 2px;
+}
+
+.produits li .titre
+{
+	font-size: 0.8em;
+	font-weight: bold;
+	color:#157999;
+
+}
+
+.produits li .prix
+{
+	font-size: 1.3em;
+	text-align: right;
+	color:#157999;
+}
+
+.produits li .image
+{
+	height : 150px;
+	width:150px ;
+	text-align: center;
+}
+
+.produits li button
+{
+	border: 1px solid #777;
+	height: 35px;
+	border-radius: 10px;
+	background-color: #BBB;
+	margin-right: 5px;
+}
+
+.produits li button a
+{
+	text-decoration: none;
+	color:#444;
+}
+
+.produits li button:hover
+{
+	background-color: #CCC;
+	border-color:#777;
+}
+
+.produits .admin span a
+{
+	display:block;
+	height:100%;
+	width:100%;
+}
+
+h2 a
+{
+	display:block;
+	height:25px;
+	width:120px;
+	background:#FF73BF;
+	color:#FFF;
+	margin:5px auto;
+	line-height:25px;
+	font-size:.65em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 5px;
+	position:absolute;
+	top:0;
+	right:0;
+	width:150px!important;
+}
+
+input[type="submit"]
+{
+	height: 30px!important;
+	cursor: pointer;
+}
+
+/**					**
+ **		Footer		**
+ **					**/
+
+footer
+{
+	height:30px;
+	background: #444;
+	padding:30px 0;
+	border:1px solid #CCC;
+	font-family: "Candara";
+}
+
+footer p
+{
+	text-align: center;
+	font-size: 0.9em;
+	color:#FFF;
+}
+
+footer p a
+{
+	font-weight: bold; color:#999;
+}
+
+/**					**
+ **		Clearfix	**
+ **					**/
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix
+{
+	display: inline-block;
+}
+ 
+html .clearfix
+{
+	display: block;
+}
+ 
+* html .clearfix
+{
+	height: 1%;
+}
+
+/**					**
+ **		Messages	**
+ **					**/
+
+.success
+{
+	background: #98E17E;
+	color:#3B6B2A;
+	border:1px solid #3B6B2A;
+	border-radius: 5px;
+	text-align: center;
+	padding:5px 10px;
+}
